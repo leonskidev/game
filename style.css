@@ -6,7 +6,7 @@ html {
   height: 100%;
   width: 100%;
 
-  background-image: url("/bg-image.jpg");
+  background-image: url("bg-image.jpg");
 }
 
 body {
@@ -38,7 +38,7 @@ iframe {
   flex-flow: row;
 
   justify-content: center;
-  
+
   gap: 2rem;
 
   color: hsl(0 0% 14.7%);
