@@ -1,0 +1,63 @@
+:root {
+  font-size: 18px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+
+  background-image: url("/bg-image.jpg");
+}
+
+body {
+  max-width: calc(80ch + 2rem);
+  margin-inline: auto;
+  padding-inline: 2rem;
+
+  color: hsl(0 0% 96.4%);
+
+  font-family: "Inter", sans-serif;
+  line-height: 1.4;
+}
+
+header, main, footer, section {
+  margin-block: 2rem;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.side-by-side {
+  display: flex;
+  flex-flow: row;
+
+  justify-content: center;
+  
+  gap: 2rem;
+
+  color: hsl(0 0% 14.7%);
+}
+
+.side-by-side > * {
+  width: 40%;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+}
+
+.side-by-side h2 {
+  text-align: center;
+}
+
+.green-bg {
+  background-color: #00f355;
+}
+
+.yellow-bg {
+  background-color: #dcff17;
+}
